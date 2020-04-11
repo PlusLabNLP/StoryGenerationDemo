@@ -1,6 +1,8 @@
 Readme file with instructions
 
+Change the prefix pointing to your anaconda location in environment.yaml
 conda env create -f environment.yaml python=3.6.7
+
 
 ----------------------------------------------------------------------------------------
 To train models:
