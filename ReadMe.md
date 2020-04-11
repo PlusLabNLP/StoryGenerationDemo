@@ -42,7 +42,7 @@ python generate-title+storyline_to_story.py False "big break ====== dreams singe
 If you want to just generate for a file
 python generate-title+storyline_to_story.py True "story-data/test.txt"
 
-============================================================================================
+==========================================================================================
 To generate story from title
 
 If you want to just generate one instance
