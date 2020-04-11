@@ -1,7 +1,5 @@
 Readme file with instructions
 
-Readme file with instructions
-
 ------------------------------------------------------------------------------------------------------------------------
 To train models:
 
