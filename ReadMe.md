@@ -5,6 +5,7 @@ To train models:
 
 cd transformers/examples
 ========================================================================================
+Please download zip files storyline-cp.zip and story-cp.zip from the drive links and place under transformers folder. These are pre-trained models necessary to run in interactive mode
 
 To train : title to storyline
 
