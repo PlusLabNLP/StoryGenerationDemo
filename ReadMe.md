@@ -1,17 +1,17 @@
 Readme file with instructions
 
-------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 To train models:
 
 cd examples
-==========================================================================================
+========================================================================================
 
 To train : title to storyline
 
 
 python run_language_modeling.py --output_dir=./ROC-STORYLINE/ --model_type=gpt2 --model_name_or_path=gpt2 --do_train --train_data_file=../storyline-data/train.txt --do_eval --eval_data_file=../storyline-data/test.txt --eval_all_checkpoints --num_train_epochs=20 --line_by_line --per_gpu_train_batch_size=3 --per_gpu_eval_batch_size=3 --evaluate_during_training
 
-===========================================================================================
+=========================================================================================
 
 To train : storyline to story
 
@@ -26,12 +26,12 @@ To generate storyline from title
 
 
 If you want to just generate one instance
-python generate-title_to_storyline.py False "big break"
+python generate-title_to_storyline.py False "big break ====== "
 
 If you want to just generate for a file
 python generate-title_to_storyline.py True "storyline-data/test.txt"
 
-==============================================================================================
+==========================================================================================
 
 To generate story from title+storyline
 
@@ -42,11 +42,11 @@ python generate-title+storyline_to_story.py False "big break ====== dreams singe
 If you want to just generate for a file
 python generate-title+storyline_to_story.py True "story-data/test.txt"
 
-===============================================================================================
+============================================================================================
 To generate story from title
 
 If you want to just generate one instance
-python generate-title_to_story.py False "big break"
+python generate-title_to_story.py False "big break ====== "
 
 If you want to just generate for a file
 python generate-title_to_story.py True "storyline-data/test.txt"
