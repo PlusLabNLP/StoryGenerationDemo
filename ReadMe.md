@@ -3,7 +3,7 @@ Readme file with instructions
 ----------------------------------------------------------------------------------------
 To train models:
 
-cd examples
+cd transformers/examples
 ========================================================================================
 
 To train : title to storyline
@@ -19,7 +19,8 @@ To train : storyline to story
 python run_language_modeling.py --output_dir=./ROC-STORY/ --model_type=gpt2 --model_name_or_path=gpt2 --do_train --train_data_file=../story-data/train.txt --do_eval --eval_data_file=../story-data/test.txt --eval_all_checkpoints --num_train_epochs=20 --line_by_line --per_gpu_train_batch_size=3 --per_gpu_eval_batch_size=3 --evaluate_during_training
 
 --------------------------------------------------------------------------------------------
-To run in interactive mode
+To run in interactive mode 
+cd transformers/
 ============================================================================================
 
 To generate storyline from title
