@@ -33,10 +33,10 @@ To generate storyline from title
 
 
 If you want to just generate one instance
-python generate-title_to_storyline.py False "big break ====== "
+python generate-title_to_storyline.py "False" "big break ====== "
 
 If you want to just generate for a file
-python generate-title_to_storyline.py True "storyline-data/test.txt"
+python generate-title_to_storyline.py "True" "storyline-data/test.txt"
 
 ==========================================================================================
 
@@ -44,16 +44,16 @@ To generate story from title+storyline
 
 
 If you want to just generate one instance
-python generate-title+storyline_to_story.py False "big break ====== dreams singer # practiced # greet # people # amazement wanted %%%% "
+python generate-title+storyline_to_story.py "False" "big break ====== dreams singer # practiced # greet # people # amazement wanted %%%% "
 
 If you want to just generate for a file
-python generate-title+storyline_to_story.py True "story-data/test.txt"
+python generate-title+storyline_to_story.py "True" "story-data/test.txt"
 
 ==========================================================================================
 To generate story from title
 
 If you want to just generate one instance
-python generate-title_to_story.py False "big break ====== "
+python generate-title_to_story.py "False" "big break ====== "
 
 If you want to just generate for a file
-python generate-title_to_story.py True "storyline-data/test.txt"
+python generate-title_to_story.py "True" "storyline-data/test.txt"
