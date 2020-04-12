@@ -27,7 +27,7 @@ Please download zip files storyline-cp.zip and story-cp.zip from the drive links
 
 https://drive.google.com/file/d/1kiyWsIerbtqWkDwUblQcW2Yw8n8BVTvL/view?usp=sharing    STORYLINE
 
-https://drive.google.com/file/d/1jgJwDVACcqE7yS7KJKqvwtju1Kk2oe44/view?usp=sharing    STORY
+https://drive.google.com/file/d/1R9ZXEacitssWUkpzt92qUoLBLkpkjU1D/view?usp=sharing    STORY
 
 
 To run in interactive mode 
