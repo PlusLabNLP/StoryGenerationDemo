@@ -25,7 +25,7 @@ python run_language_modeling.py --output_dir=./ROC-STORY/ --model_type=gpt2 --mo
 --------------------------------------------------------------------------------------------
 Please download zip files storyline-cp.zip and story-cp.zip from the drive links and place under transformers folder. These are pre-trained models necessary to run in interactive mode
 
-https://drive.google.com/file/d/1kiyWsIerbtqWkDwUblQcW2Yw8n8BVTvL/view?usp=sharing    STORYLINE
+https://drive.google.com/file/d/1kiyWsIerbtqWkDwUblQcW2Yw8n8BVTvL/view?usp=sharing   STORYLINE
 
 https://drive.google.com/file/d/1R9ZXEacitssWUkpzt92qUoLBLkpkjU1D/view?usp=sharing    STORY
 
