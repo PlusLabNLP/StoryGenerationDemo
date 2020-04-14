@@ -21,8 +21,7 @@ if fileflag == "True":
 	for line in open(sys.argv[2]):
 		a.append(line.split(' %%%% ')[0]+' %%%% ')
 	f = open('generated-story.txt','w')
-	for elem in b:
-		#elem = elem.replace(' %%%%  ','')
+	for elem in a:
 		input_ids = torch.tensor(tokenizer.encode(elem, add_special_tokens=True)).unsqueeze(0)
 		sample_output = model.generate(input_ids,do_sample=True,max_length=150,top_k=20,temperature=0.7,no_repeat_ngram_size=3)
 		op = tokenizer.decode(sample_output[0], skip_special_tokens=True)
